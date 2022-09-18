@@ -1,0 +1,78 @@
+.HomeDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.HomeCom{
+    background: #1877F2;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.HomeCom h1,h5 {
+    color: #fff;
+}
+
+.HomeCom button {
+    background: #5bdb34;
+    cursor: pointer;
+    color: #fff;
+    width: 40%;
+    margin-top: 20px;
+    border: 2px solid #5bdb34;
+    border-radius: 8px;
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.HomeCom button:hover {
+    border: 2px solid #db3434;
+    background: #db3434;
+    color: #fff;
+}
+
+.Icons {
+    font-size: xx-large;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    /* align-content: space-between; */
+    /* display: flexbox; */
+}
+
+.row {
+    justify-content:space-evenly;
+}
+
+.button-css {
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    background-color: #9ECC98;
+}
+
+.button-css:hover {
+    border: 2px solid #fff;
+    background: #6e8e6a;
+    color: #ffffff;
+}
+
+/* #9ECC98 # */
